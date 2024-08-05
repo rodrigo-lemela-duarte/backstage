@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: team-a
+  description: Team A
+spec:
+  type: team
+  profile:
+    # Intentional no displayName for testing
+    email: team-a@example.com
+    picture: https://api.dicebear.com/7.x/identicon/svg?seed=Fluffy&backgroundType=solid,gradientLinear&backgroundColor=ffd5dc,b6e3f4
+  parent: backstage
+  children: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: rodrigo-lemela-duarte
+spec:
+  profile:
+    # Intentional no displayName for testing
+    email: rodrigo.lemela@gmail.com
+    picture: https://avatars.githubusercontent.com/u/145135010
+  memberOf: [team-a]
