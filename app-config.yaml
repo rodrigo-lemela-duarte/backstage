@@ -70,8 +70,8 @@ auth:
   providers:
     github:
       development:
-        clientId: Ov23li4Fd8hG0Wp1ojl3
-        clientSecret: bcadb48433ff62021cf4478dd6260cd8b7c64368
+        clientId: Ov23liypF2x8gcRQtxpQ
+        clientSecret: 9297f5587a46931153198c52b89f4f85c97b59ad
         #below lines are extra in new backend system
         signIn:
           resolvers:

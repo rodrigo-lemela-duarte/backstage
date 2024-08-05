@@ -38,6 +38,7 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
 import { ThumbProfilePage } from '@internal/backstage-plugin-thumb-profile';
+import { BitconPage } from '@internal/backstage-plugin-bitcon';
 
 const app = createApp({
   apis,
@@ -109,6 +110,7 @@ const routes = (
     <Route path="/settings" element={<UserSettingsPage />} />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
     <Route path="/thumb-profile" element={<ThumbProfilePage />} />
+    <Route path="/bitcon" element={<BitconPage />} />
   </FlatRoutes>
 );
 

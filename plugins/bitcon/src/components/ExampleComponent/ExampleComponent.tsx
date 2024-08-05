@@ -23,15 +23,13 @@ export const ExampleComponent = () => {
 
   return (
     <Page themeId="tool">
-      <Header title="Welcome to thumb-profile!" subtitle="Optional subtitle">
+      <Header title="Welcome to bitcon!" subtitle="Optional subtitle">
         <HeaderLabel label="Owner" value="Team X" />
         <HeaderLabel label="Lifecycle" value="Alpha" />
       </Header>
       <Content>
         <ContentHeader title="Plugin title">
-          <SupportButton>
-            A description of your plugin goes here...
-          </SupportButton>
+          <SupportButton>A description of your plugin goes here.</SupportButton>
         </ContentHeader>
         <Grid container spacing={3} direction="column">
           <Grid item>
